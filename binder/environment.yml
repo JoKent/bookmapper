@@ -1,0 +1,17 @@
+name: bookmapper
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - spacy
+    - csv
+    - pandas
+    - json
+    - requests
+    - geopandas
+    - geodatasets
+    - matplotlib
+    - folium
